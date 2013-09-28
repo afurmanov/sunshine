@@ -1,0 +1,12 @@
+{
+  "src_files": [
+    "jquery.js",
+    "jasmine-jquery.js",
+    "ember.js",
+    "events-hub.js",
+    "example-naive.js",
+    "example-events.js",
+    "example-observable.js",
+    "example-promises.js"
+  ]
+}
