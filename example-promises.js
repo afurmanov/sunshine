@@ -9,7 +9,7 @@
         _shinePromise.resolve();
       }
     };
-  }
+  };
   var sun = new Sun();
 
   var $roomView = $("<div></div>");
@@ -17,7 +17,7 @@
   var RoomView = function() {
     _lightenRoom = function() {
       $roomView.attr('class', 'light');
-    }
+    };
     sun.whenShine().then(_lightenRoom);
   };
 
@@ -28,5 +28,5 @@
       sun.shine();
       expect($roomView).toHaveClass('light');
     });
-  })
-})()
+  });
+})();

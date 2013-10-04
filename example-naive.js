@@ -6,7 +6,7 @@
         $roomView.attr('class', 'light');
       }
     };
-  }
+  };
 
   var sun = new Sun();
 
@@ -15,5 +15,5 @@
       sun.shine();
       expect($roomView).toHaveClass('light');
     });
-  })
-})()
+  });
+})();

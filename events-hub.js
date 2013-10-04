@@ -1,3 +1,4 @@
+/*global $:false */
 var EventsHub = (function(){
   "use strict";
   var events = {};
@@ -15,7 +16,7 @@ var EventsHub = (function(){
             callback.call();
           });
         }
-      })
+      });
     }
-  }
+  };
 })();

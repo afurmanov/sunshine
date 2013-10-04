@@ -2,7 +2,7 @@
   var Sun = function() {
     return {
       shining : null
-    }
+    };
   };
 
   var sun = new Sun();
@@ -26,5 +26,5 @@
       Ember.set(sun, 'shining', true);
       expect($roomView).toHaveClass('light');
     });
-  })
-})()
+  });
+})();
